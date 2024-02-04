@@ -1,7 +1,7 @@
 const lists = [
     {name: 'Sunglass', price: 450},
     {name: 'Shampoo', price: 250},
-    {name: 'Flower', price: 750},
+    {name: 'Flower', price: 750}
 ]
 
 function priceList(items){
