@@ -6,3 +6,15 @@ if(rahim > disha){
 else{
     console.log('disha is a good student');
 }
+
+// bigger inside a function
+
+
+function maxNumb(num1, num2){
+    if(num1 > num2){
+        return num1;
+    }
+    return num2;
+}
+
+console.log(maxNumb(45, 58));
