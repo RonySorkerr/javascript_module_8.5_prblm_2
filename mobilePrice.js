@@ -9,12 +9,28 @@ const mobiles = [
 function getTheCheapest(list){
     let cheap = list[0]
     for(item of list){
-        if(item < cheap){
+        if(item.price < cheap.price){
             cheap = item;
         }
     }
     return cheap;
 }
 
-const cheapest = getTheCheapest(mobiles);
-console.log('the cheapest is : ',  cheapest);
+function getTheBestPhone(phones){
+    let bestPrice = phones[0]
+    for(const phone of phones){
+        if(phone.price > bestPrice.price){
+            bestPrice = phone;
+        }
+    }
+    return bestPrice;
+}
+
+const best = getTheBestPhone(mobiles);
+console.log('the best phone is : ' , best);
+
+
+
+
+// const cheapest = getTheCheapest(mobiles);
+// console.log('the cheapest is : ',  cheapest);
