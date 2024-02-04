@@ -17,4 +17,4 @@ function maxNumb(num1, num2){
     return num2;
 }
 
-console.log(maxNumb(45, 58));
+console.log('the max is: ' , maxNumb(45, 58));
